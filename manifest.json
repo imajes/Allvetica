@@ -1,5 +1,6 @@
 {
     "name": "Allvetica",
+    "manifest_version": 2,
     "version": "1.9",
     "description": "Protect your delicate typographic sensibilities.",
     "content_scripts": [
@@ -11,7 +12,7 @@
                 "run_at": "document_idle"
         }
     ],
-    "background_page": "background.html",
+    "background": "background.html",
     "options_page": "options.html",
     "icons": {
          "16": "icon16.png",
